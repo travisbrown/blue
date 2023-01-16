@@ -18,6 +18,8 @@ The legacy verification status will either be empty (no legacy verification) or 
 * `G`: verified as a government account
 * `V`: verified but verification type is not specified
 
+Note that affiliate verification is not tracked here.
+
 The subscription status will be one of the following:
 
 * `B`: Subscribed to Twitter Blue
