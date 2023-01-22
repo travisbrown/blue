@@ -2,6 +2,14 @@
 
 This repository contains information about [Twitter Blue subscriptions](https://help.twitter.com/en/using-twitter/twitter-blue).
 
+## Please note
+
+As of today's update (22 January 2023), there are just over 250k accounts listed here that are currently subscribed to Twitter Blue, but
+this does not mean that there are only 250k Twitter Blue subscribers.
+
+In the first round we identified most Blue subscribers — around 95% according to reported estimates based on internal leaks (see the next section for links).
+My rough guess would be that there are currently somewhere between 275k and 325k subscribers in total. It would be possible to make this estimate more precise based on data we've collected, but I haven't had time. If anyone has internal information about current numbers, I'd be interested to hear it.
+
 ## About this project
 
 This repository is a continuation of a data collection project started by [Casey Ho](https://twitter.com/CaseyHo) and me ([Travis Brown](https://twitter.com/travisbrown))
@@ -37,6 +45,10 @@ The `data/accounts.csv` file has the following fields:
 5. Date of first identification as Blue subscriber
 6. Timestamp of first identification as Blue subscriber
 7. Subscription status
+
+Note that the follower count may be less current than the status information
+(follower account updates happen separately and less often, since they affect most lines in the file,
+and make the more interesting parts of the change history less visible).
 
 The legacy verification status will either be empty (no legacy verification) or one of the following values:
 
