@@ -29,7 +29,7 @@ and the SPLC's [Hatewatch](https://www.splcenter.org/hatewatch/2022/11/16/twitte
 ## Methodology
 
 We compiled this list by combining two approaches.
-The first uses a Twitter profile archiver that is one of the components of the [Hassreden-Tracker](https://github.com/travisbrown/hassreden-tracker) project,
+The first uses a Twitter profile scraper that is one of the components of the [Hassreden-Tracker](https://github.com/travisbrown/hassreden-tracker) project,
 which was supported by [Prototype Fund](https://prototypefund.de/) in 2022.
 The second involves searching the Twitter API for tweets by Twitter Blue subscribers,
 with queries designed to cover areas of the Twitter graph that the first approach may miss (for example non-English-language accounts).
